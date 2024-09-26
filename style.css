@@ -1,0 +1,151 @@
+body{
+    margin: 0%;
+}
+header{ 
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 40px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+}
+li{
+    margin-right: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+.main h2{
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #EABBD5;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: black;
+}
+.main p{ 
+    color: #AF417F;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.main button{
+    background-color: #AF417F;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.main button a{
+    text-decoration: none;
+    color: white;
+}
+.main button:hover{
+    box-shadow: 0px 10px 20px 8px #e3a8cd;
+}
+.about{
+    margin: 5px;
+    margin-bottom: 20px;
+} 
+.about h2{
+    text-align: center;
+    font-size: 50px;
+}
+.about-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.about-content img {
+    width: 300px; 
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 10px; 
+}
+.about-content .text {
+    max-width: 400px;
+    font-size: 20px; 
+}
+.about-content p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+.hobbies {
+    margin: 10px;
+    text-align: center;
+}
+.hobbies h2{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.hobbies-content {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+.hobby {
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+    max-width: 300px; 
+} 
+.hobby h4{
+    color: #ce7ab0;
+}
+.hobby-img {
+    max-width: 100%;
+    border-radius: 100px;
+}
+.hobby-img-cook{
+    max-width: 100%;
+    width: 300px;
+    height: 300px; 
+    border-radius: 100px; 
+}
+.projects {
+    margin: 50px 0;
+    text-align: left;
+}
+.projects h4 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #AF417F;
+}
+.projects-contents ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+    display: grid;
+    justify-content: center;
+}
+.projects-contents li {
+    margin-bottom: 20px;
+}
+.projects-contents p {
+    margin-top: 5px; 
+    font-style: italic;
+    color: #ce7ab0; 
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #050a0e;
+}
